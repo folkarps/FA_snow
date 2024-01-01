@@ -1,3 +1,7 @@
+// EXIT POINT
+// This mod should not be loaded on clients
+if !isServer exitWith{};
+
 0 spawn {
 	// wait for FA3 conditions to complete
 	sleep 1;
